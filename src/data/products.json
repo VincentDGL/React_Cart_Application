@@ -2,93 +2,93 @@
     "products": [
         {
             "productId": 147,
-            "productName": "Shirt",
+            "productName": "Shirt - 147",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 22,
             "discount": 2,
-            "imageUrl": "../src/assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 148,
-            "productName": "Shirt",
+            "productName": "Shirt - 148",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 54,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 149,
-            "productName": "Shirt",
+            "productName": "Shirt - 149",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 34,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 150,
-            "productName": "Shirt",
+            "productName": "Shirt - 150",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 34,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 151,
-            "productName": "Shirt",
+            "productName": "Shirt - 151",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 54,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 152,
-            "productName": "Shirt",
+            "productName": "Shirt - 152",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 34,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 153,
-            "productName": "Shirt",
+            "productName": "Shirt - 153",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 64,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 154,
-            "productName": "Shirt",
+            "productName": "Shirt - 154",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 23,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 155,
-            "productName": "Shirt",
+            "productName": "Shirt - 155",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 34,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         },
         {
             "productId": 156,
-            "productName": "Shirt",
+            "productName": "Shirt - 156",
             "productDesc": "Branded shirt",
             "shoppingDate": "2017-12-11",
-            "price": 20,
+            "price": 45,
             "discount": 2,
-            "imageUrl": "../assets/images/shirt.png"
+            "imageUrl": "images/shirt.png"
         }
     ]
 }

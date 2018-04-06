@@ -29,7 +29,8 @@ export default class Price extends Component {
             discount: discount,
             quantity: parseInt(e.target.value),
             totalPrice: price - discount
-        })
+        });
+        this.props.updateTotal(this.state.totalPrice);
     }
 
     render() {
@@ -47,7 +48,7 @@ export default class Price extends Component {
                         <span className="price-label">Discount:</span><span className="price-value">{"$ " + this.state.discount}</span>
                     </div>
                     <div className="line"></div>
-                    <div className="total-price">
+                    <div className="">
                         <span className="price-label">Total Price: </span><span className="price-value">{"$ " + this.state.totalPrice}</span>
                     </div>
                 </div>

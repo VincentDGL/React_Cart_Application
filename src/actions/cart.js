@@ -7,3 +7,10 @@ export function addToCart(list) {
         cartList: list
     }
 }
+
+export function updateTotal(total) {
+    return {
+        type: ActionTypes.UPDATE_TOTAL,
+        totalPrice: total
+    }
+}

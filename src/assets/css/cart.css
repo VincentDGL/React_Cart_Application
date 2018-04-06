@@ -99,7 +99,7 @@ body {
 }
 
 .cart-product{
-    padding: 20px;
+    padding: 0 20px;
     height: 140px;
 }
 
@@ -135,26 +135,35 @@ body {
     width: 100px;
 }
 
-.cart-product .product-price .actual-price span{
+.product-price .actual-price span{
     color: rgb(17, 111, 199);
 }
 
-.cart-product .product-price .discount-price{
+.product-price .discount-price{
     margin-bottom: 10px;
 }
 
-.cart-product .product-price .total-price{
+.product-price .total-price{
     margin-top: 10px;
 }
 
-.cart-product .product-price span{
+.product-price span{
     font-weight: bold;
 }
 
-.cart-product .product-price .price-value{
+.product-price .price-value{
     float: right;
 }
 
-.cart-product .product-price .line{
+.product-price .line{
     margin: 0;
+}
+
+.total-price{
+    margin: 0;
+    padding: 20px;
+}
+
+.total-price .product-price{
+    padding: 0 20px;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes, { number, object } from 'prop-types';
 import { connect } from 'react-redux';
-import { fetchProducts, addToCart } from '../actions';
+import { fetchProducts, addToCart, updateTotal } from '../actions';
 
 class Dashboard extends Component {
   constructor(props) {
@@ -22,8 +22,10 @@ class Dashboard extends Component {
     }
     else {
       var list = this.props.cartList;
+      var totalPrice = this.props.totalPrice + (item.price - item.discount);
       list.push(item);
       this.props.addToCart(list);
+      this.props.updateTotal(totalPrice);
     }
   }
 
@@ -62,18 +64,21 @@ Dashboard.propTypes = {
   fetchProducts: PropTypes.func.isRequired,
   productList: PropTypes.array,
   addToCart: PropTypes.func,
+  updateTotal: PropTypes.func,
   cartList: PropTypes.array,
-  cartListCount: PropTypes.number
+  cartListCount: PropTypes.number,
+  totalPrice: PropTypes.number
 }
 
 function mapStateToProps(state) {
   return {
     productList: state.products.productList,
     cartList: state.cart.cartList,
-    cartListCount: state.cart.cartListCount
+    cartListCount: state.cart.cartListCount,
+    totalPrice: state.cart.totalPrice
   }
 }
 
 export default connect(mapStateToProps, {
-  fetchProducts, addToCart
+  fetchProducts, addToCart, updateTotal
 })(Dashboard)

@@ -2,7 +2,8 @@ import ActionTypes from '../constants/ActionTypes';
 
 const initialState = {
     cartList: [],
-    cartListCount: 0
+    cartListCount: 0,
+    totalPrice: 0
 };
 
 export default function cart(state = initialState, action) {
@@ -12,6 +13,11 @@ export default function cart(state = initialState, action) {
                 ...state,
                 cartList: action.cartList,
                 cartListCount: action.cartList.length
+            }
+        case ActionTypes.UPDATE_TOTAL:
+            return {
+                ...state,
+                totalPrice: action.totalPrice
             }
         default:
             return state;

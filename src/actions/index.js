@@ -10,4 +10,4 @@ import ActionTypes from '../constants/ActionTypes';
 //re-export other actions to make index a single entry point
 
 export { fetchProducts } from './dashBoard.js';
-export { addToCart } from './cart.js';
+export { addToCart, updateTotal } from './cart.js';
